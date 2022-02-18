@@ -1,8 +1,7 @@
 import "../styles/globals.css";
 import { useState, useEffect } from "react";
 import { ThemeProvider } from "styled-components";
-import GlobalStyles from "../themes/themeConfig";
-import darkTheme from "../themes/darkTheme";
+import GlobalStyles from "../themes/ThemeConfig";
 import witheTheme from "../themes/whiteTheme";
 import Layout from "../components/Layout";
 import GetUser from "../utils/GetUser";
