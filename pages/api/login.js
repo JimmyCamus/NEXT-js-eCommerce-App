@@ -8,7 +8,7 @@ const login = async (req, res) => {
   form.append("password", req.body.password);
 
   const response = await fetch(
-    `${process.env.API_PROTOCOL}${process.env.API_URL}/login`,
+    `${process.env.API_PROTOCOL}${process.env.API_URL}/api/login`,
     {
       method: "POST",
       body: form,
